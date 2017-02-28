@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F60D48F1E656BB4000E13B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F60D48E1E656BB4000E13B2 /* main.m */; };
+		1F60D4921E656BB4000E13B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F60D4911E656BB4000E13B2 /* AppDelegate.m */; };
+		1F60D4951E656BB4000E13B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F60D4941E656BB4000E13B2 /* ViewController.m */; };
+		1F60D4981E656BB4000E13B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F60D4961E656BB4000E13B2 /* Main.storyboard */; };
+		1F60D49A1E656BB5000E13B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F60D4991E656BB5000E13B2 /* Assets.xcassets */; };
+		1F60D49D1E656BB5000E13B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F60D49B1E656BB5000E13B2 /* LaunchScreen.storyboard */; };
+		1F60D4A81E656BB5000E13B2 /* KSWaveNavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F60D4A71E656BB5000E13B2 /* KSWaveNavTests.m */; };
+		1F60D4B31E656BB5000E13B2 /* KSWaveNavUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F60D4B21E656BB5000E13B2 /* KSWaveNavUITests.m */; };
+		1F60D4C31E656C42000E13B2 /* KSWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F60D4C21E656C42000E13B2 /* KSWaveView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F60D4A41E656BB5000E13B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F60D4821E656BB4000E13B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F60D4891E656BB4000E13B2;
+			remoteInfo = KSWaveNav;
+		};
+		1F60D4AF1E656BB5000E13B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F60D4821E656BB4000E13B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F60D4891E656BB4000E13B2;
+			remoteInfo = KSWaveNav;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F60D48A1E656BB4000E13B2 /* KSWaveNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSWaveNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F60D48E1E656BB4000E13B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F60D4901E656BB4000E13B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F60D4911E656BB4000E13B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F60D4931E656BB4000E13B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F60D4941E656BB4000E13B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F60D4971E656BB4000E13B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F60D4991E656BB5000E13B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F60D49C1E656BB5000E13B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F60D49E1E656BB5000E13B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F60D4A31E656BB5000E13B2 /* KSWaveNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSWaveNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F60D4A71E656BB5000E13B2 /* KSWaveNavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSWaveNavTests.m; sourceTree = "<group>"; };
+		1F60D4A91E656BB5000E13B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F60D4AE1E656BB5000E13B2 /* KSWaveNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSWaveNavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F60D4B21E656BB5000E13B2 /* KSWaveNavUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSWaveNavUITests.m; sourceTree = "<group>"; };
+		1F60D4B41E656BB5000E13B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F60D4C11E656C42000E13B2 /* KSWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSWaveView.h; path = KSWaveView/KSWaveView.h; sourceTree = "<group>"; };
+		1F60D4C21E656C42000E13B2 /* KSWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSWaveView.m; path = KSWaveView/KSWaveView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F60D4871E656BB4000E13B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F60D4A01E656BB5000E13B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F60D4AB1E656BB5000E13B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F60D4811E656BB4000E13B2 = {
+			isa = PBXGroup;
+			children = (
+				1F60D48C1E656BB4000E13B2 /* KSWaveNav */,
+				1F60D4A61E656BB5000E13B2 /* KSWaveNavTests */,
+				1F60D4B11E656BB5000E13B2 /* KSWaveNavUITests */,
+				1F60D48B1E656BB4000E13B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F60D48B1E656BB4000E13B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F60D48A1E656BB4000E13B2 /* KSWaveNav.app */,
+				1F60D4A31E656BB5000E13B2 /* KSWaveNavTests.xctest */,
+				1F60D4AE1E656BB5000E13B2 /* KSWaveNavUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F60D48C1E656BB4000E13B2 /* KSWaveNav */ = {
+			isa = PBXGroup;
+			children = (
+				1F60D4C01E656BC3000E13B2 /* KSWaveView */,
+				1F60D4901E656BB4000E13B2 /* AppDelegate.h */,
+				1F60D4911E656BB4000E13B2 /* AppDelegate.m */,
+				1F60D4931E656BB4000E13B2 /* ViewController.h */,
+				1F60D4941E656BB4000E13B2 /* ViewController.m */,
+				1F60D4961E656BB4000E13B2 /* Main.storyboard */,
+				1F60D4991E656BB5000E13B2 /* Assets.xcassets */,
+				1F60D49B1E656BB5000E13B2 /* LaunchScreen.storyboard */,
+				1F60D49E1E656BB5000E13B2 /* Info.plist */,
+				1F60D48D1E656BB4000E13B2 /* Supporting Files */,
+			);
+			path = KSWaveNav;
+			sourceTree = "<group>";
+		};
+		1F60D48D1E656BB4000E13B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F60D48E1E656BB4000E13B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F60D4A61E656BB5000E13B2 /* KSWaveNavTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F60D4A71E656BB5000E13B2 /* KSWaveNavTests.m */,
+				1F60D4A91E656BB5000E13B2 /* Info.plist */,
+			);
+			path = KSWaveNavTests;
+			sourceTree = "<group>";
+		};
+		1F60D4B11E656BB5000E13B2 /* KSWaveNavUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F60D4B21E656BB5000E13B2 /* KSWaveNavUITests.m */,
+				1F60D4B41E656BB5000E13B2 /* Info.plist */,
+			);
+			path = KSWaveNavUITests;
+			sourceTree = "<group>";
+		};
+		1F60D4C01E656BC3000E13B2 /* KSWaveView */ = {
+			isa = PBXGroup;
+			children = (
+				1F60D4C11E656C42000E13B2 /* KSWaveView.h */,
+				1F60D4C21E656C42000E13B2 /* KSWaveView.m */,
+			);
+			name = KSWaveView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F60D4891E656BB4000E13B2 /* KSWaveNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F60D4B71E656BB5000E13B2 /* Build configuration list for PBXNativeTarget "KSWaveNav" */;
+			buildPhases = (
+				1F60D4861E656BB4000E13B2 /* Sources */,
+				1F60D4871E656BB4000E13B2 /* Frameworks */,
+				1F60D4881E656BB4000E13B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSWaveNav;
+			productName = KSWaveNav;
+			productReference = 1F60D48A1E656BB4000E13B2 /* KSWaveNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F60D4A21E656BB5000E13B2 /* KSWaveNavTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F60D4BA1E656BB5000E13B2 /* Build configuration list for PBXNativeTarget "KSWaveNavTests" */;
+			buildPhases = (
+				1F60D49F1E656BB5000E13B2 /* Sources */,
+				1F60D4A01E656BB5000E13B2 /* Frameworks */,
+				1F60D4A11E656BB5000E13B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F60D4A51E656BB5000E13B2 /* PBXTargetDependency */,
+			);
+			name = KSWaveNavTests;
+			productName = KSWaveNavTests;
+			productReference = 1F60D4A31E656BB5000E13B2 /* KSWaveNavTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F60D4AD1E656BB5000E13B2 /* KSWaveNavUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F60D4BD1E656BB5000E13B2 /* Build configuration list for PBXNativeTarget "KSWaveNavUITests" */;
+			buildPhases = (
+				1F60D4AA1E656BB5000E13B2 /* Sources */,
+				1F60D4AB1E656BB5000E13B2 /* Frameworks */,
+				1F60D4AC1E656BB5000E13B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F60D4B01E656BB5000E13B2 /* PBXTargetDependency */,
+			);
+			name = KSWaveNavUITests;
+			productName = KSWaveNavUITests;
+			productReference = 1F60D4AE1E656BB5000E13B2 /* KSWaveNavUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F60D4821E656BB4000E13B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Bujiaxinxi;
+				TargetAttributes = {
+					1F60D4891E656BB4000E13B2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NGYJLGPAAV;
+						ProvisioningStyle = Automatic;
+					};
+					1F60D4A21E656BB5000E13B2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NGYJLGPAAV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F60D4891E656BB4000E13B2;
+					};
+					1F60D4AD1E656BB5000E13B2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NGYJLGPAAV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F60D4891E656BB4000E13B2;
+					};
+				};
+			};
+			buildConfigurationList = 1F60D4851E656BB4000E13B2 /* Build configuration list for PBXProject "KSWaveNav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F60D4811E656BB4000E13B2;
+			productRefGroup = 1F60D48B1E656BB4000E13B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F60D4891E656BB4000E13B2 /* KSWaveNav */,
+				1F60D4A21E656BB5000E13B2 /* KSWaveNavTests */,
+				1F60D4AD1E656BB5000E13B2 /* KSWaveNavUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F60D4881E656BB4000E13B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F60D49D1E656BB5000E13B2 /* LaunchScreen.storyboard in Resources */,
+				1F60D49A1E656BB5000E13B2 /* Assets.xcassets in Resources */,
+				1F60D4981E656BB4000E13B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F60D4A11E656BB5000E13B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F60D4AC1E656BB5000E13B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F60D4861E656BB4000E13B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F60D4951E656BB4000E13B2 /* ViewController.m in Sources */,
+				1F60D4921E656BB4000E13B2 /* AppDelegate.m in Sources */,
+				1F60D48F1E656BB4000E13B2 /* main.m in Sources */,
+				1F60D4C31E656C42000E13B2 /* KSWaveView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F60D49F1E656BB5000E13B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F60D4A81E656BB5000E13B2 /* KSWaveNavTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F60D4AA1E656BB5000E13B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F60D4B31E656BB5000E13B2 /* KSWaveNavUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F60D4A51E656BB5000E13B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F60D4891E656BB4000E13B2 /* KSWaveNav */;
+			targetProxy = 1F60D4A41E656BB5000E13B2 /* PBXContainerItemProxy */;
+		};
+		1F60D4B01E656BB5000E13B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F60D4891E656BB4000E13B2 /* KSWaveNav */;
+			targetProxy = 1F60D4AF1E656BB5000E13B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F60D4961E656BB4000E13B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F60D4971E656BB4000E13B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F60D49B1E656BB5000E13B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F60D49C1E656BB5000E13B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F60D4B51E656BB5000E13B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F60D4B61E656BB5000E13B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F60D4B81E656BB5000E13B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NGYJLGPAAV;
+				INFOPLIST_FILE = KSWaveNav/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bujiaxinxi.KSWaveNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F60D4B91E656BB5000E13B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NGYJLGPAAV;
+				INFOPLIST_FILE = KSWaveNav/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bujiaxinxi.KSWaveNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F60D4BB1E656BB5000E13B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NGYJLGPAAV;
+				INFOPLIST_FILE = KSWaveNavTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bujiaxinxi.KSWaveNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSWaveNav.app/KSWaveNav";
+			};
+			name = Debug;
+		};
+		1F60D4BC1E656BB5000E13B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NGYJLGPAAV;
+				INFOPLIST_FILE = KSWaveNavTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bujiaxinxi.KSWaveNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSWaveNav.app/KSWaveNav";
+			};
+			name = Release;
+		};
+		1F60D4BE1E656BB5000E13B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NGYJLGPAAV;
+				INFOPLIST_FILE = KSWaveNavUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bujiaxinxi.KSWaveNavUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KSWaveNav;
+			};
+			name = Debug;
+		};
+		1F60D4BF1E656BB5000E13B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NGYJLGPAAV;
+				INFOPLIST_FILE = KSWaveNavUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bujiaxinxi.KSWaveNavUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KSWaveNav;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F60D4851E656BB4000E13B2 /* Build configuration list for PBXProject "KSWaveNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F60D4B51E656BB5000E13B2 /* Debug */,
+				1F60D4B61E656BB5000E13B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F60D4B71E656BB5000E13B2 /* Build configuration list for PBXNativeTarget "KSWaveNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F60D4B81E656BB5000E13B2 /* Debug */,
+				1F60D4B91E656BB5000E13B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F60D4BA1E656BB5000E13B2 /* Build configuration list for PBXNativeTarget "KSWaveNavTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F60D4BB1E656BB5000E13B2 /* Debug */,
+				1F60D4BC1E656BB5000E13B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F60D4BD1E656BB5000E13B2 /* Build configuration list for PBXNativeTarget "KSWaveNavUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F60D4BE1E656BB5000E13B2 /* Debug */,
+				1F60D4BF1E656BB5000E13B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F60D4821E656BB4000E13B2 /* Project object */;
+}

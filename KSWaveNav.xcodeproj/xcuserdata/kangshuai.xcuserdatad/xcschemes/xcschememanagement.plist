@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>KSWaveNav.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1F60D4891E656BB4000E13B2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1F60D4A21E656BB5000E13B2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1F60D4AD1E656BB5000E13B2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
